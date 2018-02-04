@@ -56,7 +56,7 @@ header small{
 }
 .header-button-block{
     max-width: 210px;
-    border-radius: 50px;
+    /*border-radius: 50px;*/
 }
 
 /* Портфолио */
@@ -219,8 +219,9 @@ footer{
     .header-title, .header-subtitle, .header-button{
         text-align: center;
     }
-    .header-button-block {
-        text-align: center;        
+    .header-button-block{
+        text-align: center;
+       max-width: 400px;        
     }
 
 }
