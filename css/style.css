@@ -202,6 +202,10 @@ footer{
 }
 
 @media (max-width: 768px) {
+     .header-pretitle{
+        margin-top: 0;
+    }
+
     .portfolio-col-1{
         padding-left: 20px;
         padding-right: 20px;
@@ -211,8 +215,12 @@ footer{
         padding-left: 20px;
         padding-right: 20px;
     }
-    .footer-author, .footer-text{
+    .footer-author, .footer-text, .header-pretitle,
+    .header-title, .header-subtitle, .header-button{
         text-align: center;
+    }
+    .header-button-block {
+        text-align: center;        
     }
 
 }
