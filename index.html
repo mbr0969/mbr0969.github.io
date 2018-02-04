@@ -16,10 +16,16 @@
     <link rel="icon" href="/favicon.ico">
     <!-- Заголовок на вкладке в браузере -->
     <title></title>
+    <script src="js/wow.min.js"></script>
+	<script >
+		new WOW().init();
+	</script>
 
     <!-- Подключаем наш файл со стилями, который находится в папке css-->
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 <!-- Тут будет содержимое будущего сайта -->
@@ -27,14 +33,17 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-7">
-                <img class="header-img" src="img/main-img.png" alt="Монитор">
+                <img class="header-img wow fadeInLeftBig" src="img/main-img.png" alt="Монитор">
             </div>
             <!--/.col-7-->
             <div class="col-lg-5">
-                <p class="header-pretitle">Веб разработчик</p>
-                <h1 class="header-title">Михаил Борзов</h1>
-                <p class="header-subtitle">Верстка на HTML/CSS. <br> Разработка сайтов под ключь.</p>
-                <div class="header-button-block">
+                <p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Веб разработчик</p>
+
+                <h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Михаил Борзов</h1>
+
+                <p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s">Верстка на HTML/CSS. <br> Разработка сайтов под ключь.</p>
+
+                <div class="header-button-block wow fadeInRightBig" data-wow-delay="0.4s">
                     <a class="header-button" href="https://vk.com/id14074974" target="_block">Связатся</a>
                     <small>*Это бесплатно</small>
                 </div>
@@ -48,7 +57,7 @@
 
 <section class="portfolio">
     <div class="container">
-        <div class="portfolio-block">
+        <div class="portfolio-block animated fadeIn">
             <h2 class="portfolio-title">Портфолио</h2>
             <p class="portfolio-subtitle">Мои Работы</p>
             <div class="row">
@@ -94,10 +103,18 @@
             <div class="col-md-4">
                 <div class="social-block">
                     <p>Подпишитесь:</p>
-                    <a href="https://www.facebook.com/mikhail.borzow"><img src="img/socials/facebook-logo-button.png" alt="Фeйсбук"></a>
-                    <a href="https://t.me/MikhailBW"><img src="img/socials/telegram-symbol.png" alt="Телеграм"></a>
-                    <a href="https://vk.com/id14074974"><img src="img/socials/vk-social-logotype.png" alt="ВКонтакте"></a>
-                    <a href="https://www.youtube.com/channel/UCWBADqtx-X0Nn1BZeY8NoXg?view_as=subscriber"><img src="img/socials/youtube-symbol.png" alt="YouTube"></a>
+                    <a href="https:/wowebook.com/mikhail.borzow">
+                    	<img class="wow bounceInUp" src="img/socials/facebook-logo-button.png" alt="Фeйсбук" data-wow-delay="0.1s">
+                    </a>
+                    <a href="https://t.me/MikhailBW">
+                    	<img class="wow bounceInUp" src="img/socials/telegram-symbol.png" alt="Телеграм" data-wow-delay="0.15s">
+                    </a>
+                    <a href="https://vk.com/id14074974">
+                    	<img class="wow bounceInUp" src="img/socials/vk-social-logotype.png" alt="ВКонтакте" data-wow-delay="0.2s">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCWBADqtx-X0Nn1BZeY8NoXg?view_as=subscriber">
+                    	<img class="wow bounceInUp" src="img/socials/youtube-symbol.png" alt="YouTube" data-wow-delay="0.25s">
+                    </a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -109,5 +126,6 @@
         </div>
     </div>
 </footer>
+
 </body>
 </html>
