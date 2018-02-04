@@ -35,20 +35,22 @@ header small{
     margin-top: 20px;
 }
 .header-button{
-    box-shadow: 10px 17px 34px 6px 
+    display: inline-block;
+    box-shadow: 10px 17px 34px 6px    
     rgba(18,61,145,0.83);
+    text-decoration: none;
     border-radius: 50px;
-    border-color: #ffffff;
+    background-color: #ffffff;
     color: #072b6f;
     font-size: 18px;
     font-weight: 700;
     padding: 17px 55px;
     margin-top: 33px;
 }
-.header-button:hover{
+/*.header-button:hover{
     box-shadow: none;
     
-}
+}*/
 .header-button-block{
     max-width: 210px;
     border-radius: 50px;
@@ -141,6 +143,7 @@ footer{
 }
 .footer-btn{
     display: inline-block;
+    text-decoration: none;
     border: 1px solid #ffffff;
     background-color: transparent;
     color: #ffffff;
